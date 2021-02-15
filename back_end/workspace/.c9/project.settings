@@ -1,0 +1,31 @@
+{
+    "language": {
+        "tern_defs": {
+            "json()": {
+                "browser": {
+                    "enabled": true
+                },
+                "ecma5": {
+                    "enabled": true
+                },
+                "jQuery": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+    "run": {
+        "configs": {
+            "@inited": "true",
+            "json()": {
+                "message": {
+                    "command": "server.js",
+                    "debug": true,
+                    "name": "message",
+                    "runner": "Node.js (default)",
+                    "toolbar": true
+                }
+            }
+        }
+    }
+}
